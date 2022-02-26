@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubmitPageHw</title>
+    <link rel="icon" href="Google-Noto-Emoji-People-Family-Love-12144-blue-heart.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" language="javascript">
+        function alert1()
+        {
+              alert("User accepted.");      
+        }
+    </script>
+    <style>
+        *{
+        padding: 0px;
+        margin: 0px;
+        }
+        body{
+            background-image: url(117624_1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        .main{
+            margin: 6% 9.5% 6% 9.5%;
+        }
+        .content{
+            width: 30%;
+            height:90%;
+            background-color: white;
+            position: absolute;
+            top: 5%;
+            left: 35%;
+            justify-content: center;
+            align-content: center;
+            border-radius: 4%;
+            font-family: 'Poppins';
+        }
+        p{
+            font-size: 35px;
+            font-weight: 700;
+        }
+        .form-group>select{
+          font-weight: 400;
+          width: 100%;
+          position: relative;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            height: 12.5%;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .form-group>input{
+          font-weight: 400;
+          width: 100%;
+          font-family: poppins;
+          position: relative;
+            border-top: none;
+            border-left: none;
+            border-right: none; 
+            height: 12.5%;
+        }
+        .form-group>span{
+            font-size: 14px;
+            font-weight: normal;
+        }
+        .form-group>text{
+            font-weight: 400;
+            
+        }
+        .form-group>textarea{
+          font-weight: 400;
+          width: 100%;
+          height: 31.25%;
+          position: relative;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        .btn-submit{
+
+            width: 100%;
+            height: 40px;
+            border-radius: 20px 20px 20px 20px;
+            border: none;
+            background: linear-gradient(130deg,rgba(0,236,240,1) 0%, rgba(230,48,254,1) 100%);
+            font-family:'Poppins'; 
+            font-size: 16px;
+         
+        }
+
+    </style>
+    
+</head>
+<body>
+   <div class="content">
+       <div class="main">
+           <p style="margin-left: 26%;">Say Hello!</p>
+           <div class="form-group"style="margin-top: 6%;">
+                <span class="text">Your Name</span>
+            </div>
+            <div class="form-group"style="margin-top: 3.7%;">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group"style="margin-top: 3.7%;">
+                <span class="text">Email</span>
+            </div>
+            <div class="form-group"style="margin-top: 3.7%;">
+                <input type="text" placeholder="Enter your email address">
+            </div>
+            <div class="form-group"style="margin-top: 3.7%;">
+                <span class="text">Needed Services</span>
+            </div>
+            <div class="form-group"style="margin-top: 3.7%;">
+                    <select name="services" >
+                        <option value="">Choose Service</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+            </div>
+            <div class="form-group"style="margin-top: 3.7%;">
+                <span class="text">Budget</span>
+            </div>
+            <div class="form-group" style="margin-top: 3.7%;">
+                <select name="budgets" >
+                <option value="">Select Budget</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                </select>
+            </div>
+            <div class="form-group"style="margin-top: 3.7%;">
+                <span class="text">Message</span>
+            </div>
+            <div class="form-group" style="margin-top: 3.7%;">
+                <textarea name="text-area" id="1" cols="30" rows="7" placeholder="Your message here" style="font-family: poppins;"></textarea>
+            </div>
+            <button class="btn-submit"style="margin-top: 3.7%; color: white; " onclick="alert1()">Submit <i class="fa-solid fa-arrow-right-long"></i> </button>
+       </div> 
+       
+   </div>
+   
+</body>
+</html>
